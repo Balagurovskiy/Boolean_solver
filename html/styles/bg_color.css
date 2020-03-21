@@ -1,0 +1,60 @@
+/*----------------------------------------BACK COLOUR*/
+.bg-green {
+  /*background-color: white; */
+  background-color: transparent;
+  color: black; 
+  /*border: 2px solid #4CAF50;*/
+}
+
+.bg-green:hover {
+ /* background-color: #4CAF50;*/
+  background-color: #6d6d6d;
+  color: white;
+}
+
+.bg-blue {
+  background-color: transparent; 
+  color: black; 
+  /*border: 2px solid #008CBA;*/
+}
+
+.bg-blue:hover {
+  /*background-color: #008CBA;*/
+  background-color: #6d6d6d;
+  color: white;
+}
+
+.bg-red {
+  background-color: transparent; 
+  color: black; 
+  /*border: 2px solid #f44336;*/
+}
+
+.bg-red:hover {
+  /*background-color: #f44336;*/
+  background-color: #6d6d6d;
+  color: white;
+}
+
+.bg-gray {
+  background-color: transparent;
+  color: black;
+  /*border: 2px solid #e7e7e7;*/
+}
+
+.bg-gray:hover {
+	/*background-color: #e7e7e7;*/
+	 background-color: #6d6d6d;
+}
+
+.bg-black {
+  background-color: transparent;
+  color: black;
+ /* border: 2px solid #555555;*/
+}
+
+.bg-black:hover {
+ /* background-color: #555555;*/
+  background-color: #6d6d6d;
+  color: white;
+}

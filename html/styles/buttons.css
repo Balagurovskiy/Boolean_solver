@@ -1,0 +1,31 @@
+/*----------------------------------------BUTTONS*/
+.button {
+	
+	background-color: transparent; 
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 2vw;
+	margin : 1%;
+ 
+	-webkit-transition-duration: 0.7s; 
+	cursor: pointer;
+
+	/*border-radius: 4px;*/
+	vertical-align:bottom;	
+}
+.pip {
+	padding: 1% 5%; 	
+}
+.cube {
+	padding: 5% 5%;
+}
+/*----------------------------------------SHADOWS*/
+.shadow {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.shadow-hover:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

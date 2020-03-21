@@ -1,0 +1,81 @@
+input:focus::-webkit-input-placeholder 
+{
+    color: transparent;
+}
+input{
+	outline: none;
+}
+.in{
+    -webkit-appearance: none;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+    width: 100%;
+    border:dashed 2px gray;
+
+	background-color: transparent;	
+    
+    height: 6vh;
+    font-size: 27px;
+    font-weight: 500;
+	font-family: inherit;
+	
+	padding-left: 40px;
+	 
+	margin-bottom:10px;
+	margin-top:10px;
+	
+	outline: none;
+	
+	min-height:40px;
+	min-width:100px;
+
+	background-size: 35% ;
+	
+	background-repeat: no-repeat;
+	background-position:98% 0;
+}
+.in:hover{
+    border:dashed 5px gray;
+	/*background-size: 9% ;*/
+	/*background-size: 35px ;*/
+	background-position:0 50%;
+	
+	
+	background-size: auto ;
+}
+::-webkit-input-placeholder {
+   padding: 30%
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   padding: 30%  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   padding: 30% 
+}
+
+:-ms-input-placeholder {  
+   padding: 30%
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.facts{
+	background-image: url(../images/facts.png);
+}  
+.queries{
+	background-image: url(../images/queries.png); 
+} 
+.facts:hover{
+	background-image: url(../images/f.png);
+}
+.queries:hover{
+	background-image: url(../images/q.png); 
+}

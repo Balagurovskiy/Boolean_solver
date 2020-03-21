@@ -1,0 +1,30 @@
+textarea {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+    width: 100%;
+	
+	outline: none;
+	
+	resize: none;
+ 
+	background-color: transparent;
+	
+	border:dashed 2px gray;
+	
+	padding-left: 40px;
+	padding-top: 7px;
+	
+    font-family:"Fixedsys";
+	font-size: 27px;	
+	line-height: 110%;
+	
+	white-space: nowrap;
+}
+textarea:hover{	 
+	background: url(../images/numbers_.png);
+	background-attachment: local;
+	background-repeat: no-repeat;
+	
+	border:dashed 5px gray;
+}

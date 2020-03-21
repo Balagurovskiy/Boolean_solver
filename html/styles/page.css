@@ -1,0 +1,102 @@
+
+body{
+	background-image: url(../images/all.png);
+ 	background-repeat: no-repeat;
+	background-position:absolute;	
+}
+
+
+.cover-bg {
+	background-size: cover;
+
+	background-position:absolute;
+}
+.bg-rules{
+	background-image: url(../images/rules.png);
+	 
+}
+.bg-out{
+	background-image: url(../images/out.png);
+	 
+}
+.bg-errors{
+	background-image: url(../images/errors.png);
+	
+}
+
+/*-----------------------------------*/
+div.top {
+	top:3%;
+}
+div.bottom {
+	bottom:3%;
+}
+/*-----------------------------------*/			
+div.left {
+	position:absolute;
+	width: 30%;				
+	left:3%;
+}
+div.middle {
+	position:absolute;
+	width: 30%;
+	left:34%;
+}
+div.right {
+	position:absolute;
+	width: 33%;
+	left:65%;
+}
+/*-----------------------------------*/
+.h2-3 {
+	height: 70%;
+}
+.h1-3 {
+	height: 20%;
+}
+.h1-2 {
+	height: 45%;
+}
+.h1 {
+	height: 93%;
+}
+/*-----------------------------------*/
+.w1{
+	width: 100%;
+}
+.w30{
+	width: 30%;
+}
+ 
+.w50{
+	width: 50%;
+}
+ 
+/*-----------------------------------*/
+div.border {
+	/*border: 3px solid #112233*/
+}			
+/*-----------------------------------*/
+.empty {
+	position:relative;
+	height:80%;
+	width:100%;
+}
+.ok {
+	display: none;
+}
+.notok {
+	display: none;
+}
+.up {
+	display: none;
+}
+.upload {
+	display: none;
+}
+.helptext {
+	display: none;
+}
+form input[type=submit]{
+	background: url("images/up.png") no-repeat center;
+}
