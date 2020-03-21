@@ -1,3 +1,3 @@
 # Boolean_solver
 solver for boolean equations with web interface</br>
-<img src="example/jpg">
+<img src="example.jpg">
