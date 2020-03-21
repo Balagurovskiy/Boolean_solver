@@ -1,2 +1,2 @@
 # Boolean_solver
-solver for boolean eauations with web interface
+solver for boolean equations with web interface
