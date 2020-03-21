@@ -1,5 +1,5 @@
 # Boolean_solver
--------------------------------------------</br>
+</br>
 solver for boolean equations with web interface</br>
 </br>
 -------------------------------------------
